@@ -13,7 +13,7 @@
               maxIdle="30" maxWait="10000"
               username="root" password="Capgemini123" 
               driverClassName="com.mysql.jdbc.Driver"
-              url="aa1me8sfcg5qx85.cxphh71ogwak.us-east-2.rds.amazonaws.com:3306/ebdb"/>
+              url="jdbc:mysql://aa1me8sfcg5qx85.cxphh71ogwak.us-east-2.rds.amazonaws.com:3306/ebdb"/>
               
 <!--
 
