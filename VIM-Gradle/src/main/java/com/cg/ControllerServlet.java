@@ -66,7 +66,9 @@ public class ControllerServlet extends HttpServlet
         
 //        FACORY PATTERN
         CarDAO carDAO = DBUtility.getCarDAO();
+
         
+        System.out.println("Hello, World!");
         
         // perform action
         if(VIEW_CAR_LIST_ACTION.equals(actionName))
