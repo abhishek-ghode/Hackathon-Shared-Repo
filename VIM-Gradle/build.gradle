@@ -27,6 +27,7 @@ targetCompatibility = 1.8
 repositories {
      flatDir { dirs "lib" }   
      maven { url "http://repo.maven.apache.org/maven2" }
+     //jcenter()
 }
 
 
@@ -42,7 +43,5 @@ dependencies {
 
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
 	compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
-    
-    
     
 }

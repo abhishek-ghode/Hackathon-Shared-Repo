@@ -144,9 +144,9 @@ public class ControllerServlet extends HttpServlet
 		//appropriate destination page set in above if else blocks depending on action.
 
         System.out.println(destinationPage);
-//        getServletContext().getRequestDispatcher(destinationPage).forward(request, response);;
+        getServletContext().getRequestDispatcher(destinationPage).forward(request, response);;
         
-        response.sendRedirect("carList.jsp");
+//        response.sendRedirect("carList.jsp");
         
     }
 }
